@@ -28,4 +28,9 @@ gulp.task('compile-wxml', () => {
         .pipe(gulp.dest('../dist/'));
 });
 
+gulp.task('dist', () => {
+    return gulp.src(['../dist/**/*'])
+        .pipe(gulp.dest('../../whc_wechat_image_edit/iview/'));
+});
+
 gulp.task('default', ['compile-css', 'compile-js', 'compile-json', 'compile-wxml']);

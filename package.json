@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "gulp --gulpfile build/build-dev.js",
     "build": "gulp --gulpfile build/build-prod.js",
+    "dist": "gulp dist --gulpfile build/build-prod.js",
     "prepare": "npm run build"
   },
   "repository": {

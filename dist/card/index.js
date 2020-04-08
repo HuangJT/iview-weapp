@@ -1,5 +1,5 @@
 Component({
-    externalClasses: ['i-class'],
+    externalClasses: ['i-class','i-card-header-content-class'],
 
     options: {
         multipleSlots: true
